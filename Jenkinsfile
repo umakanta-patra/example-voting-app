@@ -8,7 +8,7 @@ pipeline{
         retry (3)
     }
     parameters{
-        string(name: 'BRANCH', defaultValue: 'master')
+        string(name: 'BRANCH', defaultValue: 'main')
         booleanParam(name: 'BUILD_NUMBER', defaultValue: 1)
     }
     stages{
