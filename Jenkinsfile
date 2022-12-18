@@ -9,7 +9,7 @@ pipeline{
     }
     parameters{
         string(name: 'BRANCH', defaultValue: 'main')
-        string(name: 'BUILD_NUMBER', defaultValue: 1)
+        string(name: 'BUILD_NUMBER', defaultValue: '1')
     }
     stages{
        stage('Git checkout'){
